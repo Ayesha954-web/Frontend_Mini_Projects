@@ -1,0 +1,16 @@
+This is a basic web calculator that performs the four fundamental arithmetic operations: Addition, Subtraction, Multiplication, and Division.
+
+It displays two numbers on the screen and provides a user-friendly interface with buttons for better visual interaction.
+
+ Features
+- 📐 Clean UI with responsive layout
+- ➕ Addition
+- ➖ Subtraction
+- ✖️ Multiplication
+- ➗ Division
+- 🧮 Results displayed instantly
+
+Technologies Used
+- HTML – Structure of the calculator
+- CSS – Styling and layout using Grid
+- JavaScript** – Logic for operations and dynamic DOM manipulation
