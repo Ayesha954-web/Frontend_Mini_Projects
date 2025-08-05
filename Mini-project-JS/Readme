@@ -1,0 +1,14 @@
+A simple and responsive counter web application built using HTML, CSS, and JavaScript. This app allows users to increase, decrease, 
+or reset a number with just one click. 
+
+Features:
+- Increment the count
+- Decrement the count
+- Reset to zero
+- Fully responsive UI
+- Clean and minimal design
+
+Tech Stack
+- HTML5
+- CSS
+- JavaScript 
