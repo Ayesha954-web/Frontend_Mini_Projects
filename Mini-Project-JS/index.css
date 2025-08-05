@@ -1,0 +1,60 @@
+body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f4f4f4;
+            margin: 0;
+            padding: 40px;
+            text-align: center;
+        }
+
+        #num1-el,
+        #num2-el {
+            font-size: 1.5em;
+            display: inline-block;
+            margin: 10px;
+            padding: 6px 12px;
+            border-bottom: 2px solid #333;
+            background: #fffde7;
+            border-radius: 5px;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-areas:
+                ". btn-top ."
+                "btn-left btn-center btn-right"
+                ". btn-bottom .";
+            grid-template-columns: 100px 100px 100px;
+            grid-template-rows: 60px 60px 60px;
+            gap: 10px;
+            justify-content: center;
+            margin: 30px auto;
+        }
+
+        button {
+            padding: 10px 15px;
+            font-size: 1em;
+            font-weight: bold;
+            border: none;
+            border-radius: 6px;
+            background-color: #4CAF50;
+            color: white;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        button:hover {
+            background-color: #388e3c;
+        }
+
+        .btn-top     { grid-area: btn-top; }
+        .btn-bottom  { grid-area: btn-bottom; }
+        .btn-left    { grid-area: btn-left; }
+        .btn-right   { grid-area: btn-right; }
+        .btn-center  { grid-area: btn-center; }
+
+        #sum-el {
+            display: block;
+            font-size: 1.4em;
+            margin-top: 20px;
+            color: #333;
+        }
